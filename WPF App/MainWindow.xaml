@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="124,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="124,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="Fullname" HorizontalAlignment="Left" Margin="362,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="362,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="usernameTxb" HorizontalAlignment="Left" Margin="200,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="passwordTxb" HorizontalAlignment="Left" Margin="200,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="fullnameTxb" HorizontalAlignment="Left" Margin="440,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="emailTxb" HorizontalAlignment="Left" Margin="440,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="RegisterButton" Content="SAVE" HorizontalAlignment="Left" Margin="309,269,0,0" VerticalAlignment="Top" Height="31" Width="58" Background="#FF8FFE0A" Click="RegisterButton_Click"/>
+
+    </Grid>
+</Window>
